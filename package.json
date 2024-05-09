@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_typescript_jest",
+  "version": "1.0.0",
+  "description": "A base Node.js project with TypeScript and Jest integration",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Justin Pradier",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^26.0.0",
+    "@types/jest": "^26.0.0",
+    "ts-jest": "^26.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0"
+  }
+}
